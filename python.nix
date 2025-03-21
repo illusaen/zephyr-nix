@@ -32,6 +32,7 @@ let
 
       # Upstream bug. Bz is not a valid pypi package.
       bz = null;
+      gcovr = null;
 
       # HACK: Older Zephyr depends on these missing dependencies
       sphinxcontrib-svg2pdfconverter = super.sphinxcontrib-svg2pdfconverter or null;
